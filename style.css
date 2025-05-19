@@ -1,0 +1,124 @@
+body {
+  text-align: center;
+  background-color: #011f3f;
+}
+
+#level-title {
+  font-family: "Press Start 2P", cursive;
+  font-size: 3rem;
+  margin: 5% 5% 3% 5%;
+  color: #fef2bf;
+}
+.press {
+  margin: 0;
+}
+#best-title {
+  font-family: "Press Start 2P", cursive;
+  font-size: 2rem;
+  margin-top: 0;
+  color: #fef2bf;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+.white {
+  background-color: white;
+}
+.pink {
+  background-color: pink;
+}
+.violet {
+  background-color: violet;
+}
+.orange {
+  background-color: orange;
+}
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For tablets and smaller screens: */
+  .btn {
+    height: 100px; /* Adjust the size for tablets */
+    width: 100px; /* Adjust the size for tablets */
+    margin: 15px; /* Adjust the margin for tablets */
+  }
+  #level-title {
+    font-size: 2rem;
+  }
+  #best-title {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+  .btn {
+    height: 100px; /* Adjust the size for mobile phones */
+    width: 100px; /* Adjust the size for mobile phones */
+    margin: 10px; /* Adjust the margin for mobile phones */
+    border-width: 5px; /* Adjust the border width for mobile phones */
+  }
+
+  /* You can also consider adjusting font sizes for smaller screens if needed */
+  #level-title {
+    font-size: 1.5rem;
+  }
+  #best-title {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  /* For mobile phones: */
+  .btn {
+    height: 60px; /* Adjust the size for mobile phones */
+    width: 60px; /* Adjust the size for mobile phones */
+    margin: 5px; /* Adjust the margin for mobile phones */
+    border-width: 5px; /* Adjust the border width for mobile phones */
+  }
+
+  /* You can also consider adjusting font sizes for smaller screens if needed */
+  #level-title {
+    font-size: 1rem;
+  }
+  #best-title {
+    font-size: 0.7rem;
+  }
+}
